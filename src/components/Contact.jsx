@@ -1,19 +1,19 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Phone, ExternalLink, Github } from 'lucide-react';
+import { Whatsapp, Linkedin, Github, ExternalLink } from 'lucide-react';
 
 const contacts = [
   {
     label: 'WhatsApp',
-    value: '+000 0000 0000',
-    href: 'https://wa.me/0000000000',
-    icon: Phone,
+    value: '+62 851-5655-9499',
+    href: 'https://wa.me/6285156559499',
+    icon: Whatsapp,
   },
   {
     label: 'LinkedIn',
     value: 'linkedin.com/in/your-handle',
     href: 'https://www.linkedin.com/in/your-handle',
-    icon: ExternalLink,
+    icon: Linkedin,
   },
   {
     label: 'GitHub',
