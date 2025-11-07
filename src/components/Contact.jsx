@@ -4,9 +4,9 @@ import { Phone, ExternalLink, Github } from 'lucide-react';
 
 const contacts = [
   {
-    label: 'Phone',
+    label: 'WhatsApp',
     value: '+000 0000 0000',
-    href: 'tel:+0000000000',
+    href: 'https://wa.me/0000000000',
     icon: Phone,
   },
   {
@@ -51,8 +51,8 @@ const Contact = () => {
             <motion.a
               key={label}
               href={href}
-              target={label === 'Phone' ? undefined : '_blank'}
-              rel={label === 'Phone' ? undefined : 'noreferrer'}
+              target="_blank"
+              rel="noreferrer"
               initial={{ opacity: 0, y: 10 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
