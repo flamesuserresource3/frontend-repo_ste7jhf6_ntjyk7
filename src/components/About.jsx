@@ -1,11 +1,12 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ShieldCheck, Bug, Code2, Workflow } from 'lucide-react';
+import { ShieldCheck, Bug, Mail, Rocket, Workflow } from 'lucide-react';
 
 const skills = [
   { icon: ShieldCheck, title: 'Quality Strategy', desc: 'Test plans, risk analysis, shift-left testing culture.' },
   { icon: Bug, title: 'Automation', desc: 'Playwright, Cypress, API tests, CI pipelines.' },
-  { icon: Code2, title: 'Full‑Stack', desc: 'TypeScript/React, Node, Python, FastAPI, MongoDB.' },
+  { icon: Mail, title: 'Technical Writer', desc: 'Clear docs, knowledge bases, and release notes that drive adoption.' },
+  { icon: Rocket, title: 'Assistant Project Manager', desc: 'Backlog grooming, stakeholder alignment, and delivery tracking.' },
   { icon: Workflow, title: 'QAOps', desc: 'Metrics, release hygiene, observability-informed testing.' },
 ];
 
