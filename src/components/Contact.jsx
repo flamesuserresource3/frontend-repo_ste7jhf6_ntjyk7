@@ -11,14 +11,14 @@ const contacts = [
   },
   {
     label: 'LinkedIn',
-    value: 'linkedin.com/in/your-handle',
-    href: 'https://www.linkedin.com/in/your-handle',
+    value: 'linkedin.com/in/mharjuna',
+    href: 'https://www.linkedin.com/in/mharjuna',
     icon: Linkedin,
   },
   {
     label: 'GitHub',
-    value: 'github.com/your-handle',
-    href: 'https://github.com/your-handle',
+    value: 'github.com/mharjuna29',
+    href: 'https://github.com/mharjuna29',
     icon: Github,
   },
 ];
